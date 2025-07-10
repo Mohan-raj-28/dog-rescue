@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dog Rescue Operation</title>
+    <link rel="stylesheet" href="style1.css" />
+
+</head>
+
+<body>
+
+    <!-- 🔹 NAVBAR -->
+    <nav class="navbar fixed-top">
+        <div class="logo">
+            🐾 DogRescue
+        </div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#breeds">Adopt</a></li>
+            <li><a href="#rescue">Rescue</a></li>
+            <li><a href="#donate">Donate</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger" onclick="toggleMenu()">☰</div>
+    </nav>
+
+    <!-- 🔹 HERO -->
+    <header class="hero" id="home">
+        <div class="hero-content">
+            <h1>Adopt. Rescue. Love.</h1>
+            <p>Every paw deserves a second chance. Help us make it happen!</p>
+            <a href="#breeds" class="cta-button">Explore Adoptions</a>
+        </div>
+    </header>
+
+    <!-- 🔹 ADOPTABLE BREEDS -->
+    <section id="breeds" class="section">
+        <h2>🐶 Breeds Available for Adoption</h2>
+        <div class="cards">
+            <!-- Repeatable Dog Card -->
+            <div class="card"><img src="https://placedog.net/400/300?id=1" alt="">
+                <h3>Labrador Retriever</h3>
+            </div>
+            <div class="card"><img src="https://placedog.net/400/300?id=2" alt="">
+                <h3>German Shepherd</h3>
+            </div>
+            <div class="card"><img src="https://placedog.net/400/300?id=3" alt="">
+                <h3>Beagle</h3>
+            </div>
+            <div class="card"><img src="https://placedog.net/400/300?id=4" alt="">
+                <h3>Golden Retriever</h3>
+            </div>
+            <div class="card"><img src="https://placedog.net/400/300?id=5" alt="">
+                <h3>Pug</h3>
+            </div>
+            <div class="card"><img src="https://placedog.net/400/300?id=6" alt="">
+                <h3>Indian Pariah</h3>
+            </div>
+            <div class="card"><img src="https://placedog.net/400/300?id=7" alt="">
+                <h3>Siberian Husky</h3>
+            </div>
+            <div class="card"><img src="https://placedog.net/400/300?id=8" alt="">
+                <h3>Bulldog</h3>
+            </div>
+            <div class="card"><img src="https://placedog.net/400/300?id=9" alt="">
+                <h3>Dachshund</h3>
+            </div>
+            <div class="card"><img src="https://placedog.net/400/300?id=10" alt="">
+                <h3>Shih Tzu</h3>
+            </div>
+            <div class="card"><img src="https://placedog.net/400/300?id=11" alt="">
+                <h3>Great Dane</h3>
+            </div>
+            <div class="card"><img src="https://placedog.net/400/300?id=12" alt="">
+                <h3>Cocker Spaniel</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- 🔹 STREET DOGS IN NEED -->
+    <section id="rescue" class="section light-bg">
+        <h2>🚨 Street Dogs That Need Urgent Help</h2>
+        <div class="cards">
+            <div class="card"><img src="https://placedog.net/400/300?id=13" alt="">
+                <h3>Injured near railway station</h3>
+                <p>Contact: +91-9876543210</p>
+            </div>
+            <div class="card"><img src="https://placedog.net/400/300?id=14" alt="">
+                <h3>Newborn pup found alone</h3>
+                <p>Contact: +91-8765432109</p>
+            </div>
+            <div class="card"><img src="https://placedog.net/400/300?id=15" alt="">
+                <h3>Leg fracture – needs surgery</h3>
+                <p>Contact: +91-9012345678</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 🔹 DONATION SECTION -->
+    <!-- 🔹 DONATION SECTION -->
+    <section id="donate" class="section donate">
+        <h2>💖 Make a Difference</h2>
+        <p>Your donations support food, shelter, medical care, and rescue missions.</p>
+        <form class="donation-form">
+            <input type="text" placeholder="Full Name" required />
+            <input type="number" placeholder="Age" required />
+            <input type="text" placeholder="Address" required />
+            <input type="email" placeholder="Email" required />
+            <input type="tel" placeholder="Phone Number" required />
+            <button type="submit">Donate & Submit</button>
+        </form>
+        <p class="note">We’ll contact you soon for confirmation. Thank you for caring! 🐾</p>
+    </section>
+
+    <!-- 🔹 FOOTER -->
+    <!-- 🔹 FOOTER / CONTACT SECTION -->
+    <footer id="contact" class="footer-big">
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>📍 Franchise Locations</h3>
+                <ul>
+                    <li><strong>Bangalore:</strong> #21, MG Road, Indiranagar</li>
+                    <li><strong>Chennai:</strong> #14, Marina Street, Besant Nagar</li>
+                    <li><strong>Delhi:</strong> #7, Connaught Place, CP</li>
+                    <li><strong>Mumbai:</strong> #55, Carter Road, Bandra</li>
+                    <li><strong>Kolkata:</strong> #88, Park Street, Salt Lake</li>
+                    <li><strong>Kochi:</strong> #33, Marine Drive</li>
+                    <li><strong>Goa:</strong> #9, Beach Lane, Panaji</li>
+                    <li><strong>Pune:</strong> #66, FC Road, Shivaji Nagar</li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>🤝 Our Sponsors</h3>
+                <ul>
+                    <li>Pedigree India</li>
+                    <li>Tails & Treats Foundation</li>
+                    <li>Urban Pet Clinic</li>
+                    <li>StreetPaws NGO</li>
+                    <li>MyPet World</li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>📞 Contact Us</h3>
+                <p>Phone: +91-1234567890, +91-9876543210</p>
+                <p>Email: <a href="mailto:support@dogrescue.org">support@dogrescue.org</a></p>
+                <p>Working Hours: 9:00 AM – 9:00 PM</p>
+
+                <div class="footer-social">
+                    <a href="https://instagram.com/yourpage" target="_blank" title="Instagram">
+                        <img src="https://img.icons8.com/ios-filled/36/ff6f61/instagram-new.png" alt="Instagram" />
+                    </a>
+                    <a href="https://twitter.com/yourpage" target="_blank" title="Twitter">
+                        <img src="https://img.icons8.com/ios-filled/36/ff6f61/twitter.png" alt="Twitter" />
+                    </a>
+                    <a href="https://chat.whatsapp.com/example" target="_blank" title="WhatsApp">
+                        <img src="https://img.icons8.com/ios-filled/36/ff6f61/whatsapp.png" alt="WhatsApp" />
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 DogRescue Foundation. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            document.getElementById("navLinks").classList.toggle("active");
+        }
+    </script>
+</body>
+</html>
